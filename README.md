@@ -2,14 +2,20 @@
 
 InsightPilot 是一个面向产品经理的本地 AI 用户反馈分析工具。它使用 Ollama 与 Qwen3-4B，将 CSV、问卷或访谈记录转换为可追溯的用户痛点、需求优先级和 PRD 初稿。
 
+\## 运行效果
+
+
+
+!\[InsightPilot用户反馈分析界面](screenshots/insight-pilot-demo.png)
+
 ## 项目亮点
 
-- 本地运行，原始用户反馈不发送给第三方服务
-- 支持示例数据、CSV上传和直接粘贴
-- 输出情感分布、痛点聚类和需求优先级
-- 每条结论引用反馈编号，便于人工核验
-- 自动生成PRD范围、验收标准和上线指标
-- 支持下载Markdown报告与JSON结果
+* 本地运行，原始用户反馈不发送给第三方服务
+* 支持示例数据、CSV上传和直接粘贴
+* 输出情感分布、痛点聚类和需求优先级
+* 每条结论引用反馈编号，便于人工核验
+* 自动生成PRD范围、验收标准和上线指标
+* 支持下载Markdown报告与JSON结果
 
 ## 一键运行（Windows）
 
@@ -31,7 +37,7 @@ InsightPilot 是一个面向产品经理的本地 AI 用户反馈分析工具。
 
 ```powershell
 python -m venv .venv
-.venv\Scripts\Activate.ps1
+.venv\\Scripts\\Activate.ps1
 python -m pip install -r requirements.txt
 python -m streamlit run app.py
 ```
@@ -42,20 +48,20 @@ python -m streamlit run app.py
 
 ## 技术说明
 
-- 基础模型：[Qwen3-4B](https://huggingface.co/Qwen/Qwen3-4B)，Apache-2.0
-- 本地推理：[Ollama](https://ollama.com/)
-- 应用框架：[Streamlit](https://streamlit.io/)
-- 数据处理：Pandas
+* 基础模型：[Qwen3-4B](https://huggingface.co/Qwen/Qwen3-4B)，Apache-2.0
+* 本地推理：[Ollama](https://ollama.com/)
+* 应用框架：[Streamlit](https://streamlit.io/)
+* 数据处理：Pandas
 
 本仓库不包含Qwen3模型权重，也不声称拥有基础模型。模型由Ollama单独下载和管理。
 
 ## 路线图
 
-- [x] 本地反馈分析Demo
-- [x] 证据编号与PRD导出
-- [ ] 建立100条人工标注评测集
-- [ ] 对比原始Prompt、优化Prompt与LoRA版本
-- [ ] 发布经过验证的LoRA Adapter
+* \[x] 本地反馈分析Demo
+* \[x] 证据编号与PRD导出
+* \[ ] 建立100条人工标注评测集
+* \[ ] 对比原始Prompt、优化Prompt与LoRA版本
+* \[ ] 发布经过验证的LoRA Adapter
 
 ## 许可证
 
