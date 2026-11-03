@@ -4,7 +4,7 @@ InsightPilot 是一个面向产品经理的本地 AI 用户反馈分析工具。
 
 ## 运行效果
 
-## !\[InsightPilot用户反馈分析界面](screenshots/insight-pilot-demo.png)
+![InsightPilot用户反馈分析界面](screenshots/insight-pilot-demo.png)
 
 ## 项目亮点
 
