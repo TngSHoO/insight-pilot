@@ -4,8 +4,6 @@ InsightPilot 是一个面向产品经理的本地 AI 用户反馈分析工具。
 
 ## \## 运行效果
 
-## 
-
 ## !\[InsightPilot用户反馈分析界面](screenshots/insight-pilot-demo.png)
 
 ## 项目亮点
@@ -37,7 +35,7 @@ InsightPilot 是一个面向产品经理的本地 AI 用户反馈分析工具。
 
 ```powershell
 python -m venv .venv
-.venv\\\\\\\\Scripts\\\\\\\\Activate.ps1
+.venv\\\\\\\\\\\\\\\\Scripts\\\\\\\\\\\\\\\\Activate.ps1
 python -m pip install -r requirements.txt
 python -m streamlit run app.py
 ```
