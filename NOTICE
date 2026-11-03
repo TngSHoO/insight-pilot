@@ -1,0 +1,21 @@
+InsightPilot uses or interoperates with third-party open-source projects.
+
+Qwen3
+Copyright (c) Alibaba Cloud
+License: Apache License 2.0
+https://huggingface.co/Qwen/Qwen3-4B
+
+Ollama
+https://github.com/ollama/ollama
+
+Streamlit
+https://github.com/streamlit/streamlit
+
+Pandas
+https://github.com/pandas-dev/pandas
+
+This repository does not redistribute Qwen3 model weights. Users download and
+manage models separately through Ollama. All product-specific source code and
+documentation in this repository are original modifications unless otherwise
+noted.
+
